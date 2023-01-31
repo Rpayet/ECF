@@ -1,7 +1,6 @@
 #purchase {
 
     @include section-builder;
-    margin-top: 5em;
 
     .img-design {
 
@@ -11,7 +10,6 @@
             right: -3em;
             bottom: -6em;
             z-index: -1;
-            filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
-        }
+            }
     }
 }

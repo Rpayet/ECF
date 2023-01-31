@@ -22,42 +22,52 @@ h2 {
 }
 
 #header-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 1em;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 8vh;
   font-weight: 700;
   color: #243e63;
+  backdrop-filter: blur(0.5em);
+  background-color: rgba(255, 255, 255, 0.6352941176);
 }
-#header-container #logo {
+#header-container .header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: auto;
+  margin-top: 1em;
+}
+#header-container .header-content #logo {
   display: flex;
   align-items: center;
 }
-#header-container #logo .logo-img {
+#header-container .header-content #logo .logo-img {
   width: 2em;
 }
-#header-container #logo p {
+#header-container .header-content #logo p {
   margin-left: 0.5em;
   font-weight: 900;
 }
-#header-container #navbar {
+#header-container .header-content #navbar {
   display: flex;
 }
-#header-container #navbar .navigation {
+#header-container .header-content #navbar .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#header-container #navbar .navigation li {
+#header-container .header-content #navbar .navigation li {
   margin-left: 3em;
 }
-#header-container #navbar .login {
+#header-container .header-content #navbar .login {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 5em;
 }
-#header-container #navbar .login .button {
+#header-container .header-content #navbar .login .button {
   width: fit-content;
   display: flex;
   justify-content: center;
@@ -68,10 +78,10 @@ h2 {
   font-weight: 700;
   margin-left: 3em;
 }
-#header-container #navbar .login .button a {
+#header-container .header-content #navbar .login .button a {
   color: white;
 }
-#header-container #navbar .burgerDisplay {
+#header-container .header-content #navbar .burgerDisplay {
   display: none;
 }
 
@@ -82,7 +92,6 @@ h2 {
   width: 100%;
   height: 29em;
   margin: 10em 0 15em;
-  margin-top: 5em;
 }
 #purchase .text-design {
   display: flex;
@@ -135,7 +144,6 @@ h2 {
 #purchase .text-design .section-buttons .player img {
   width: 2.5em;
   margin-right: 1em;
-  filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
 }
 #purchase .text-design .section-buttons .player span {
   font-size: 1em;
@@ -156,7 +164,6 @@ h2 {
   right: -3em;
   bottom: -6em;
   z-index: -1;
-  filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
 }
 
 #loyalty {
@@ -218,7 +225,6 @@ h2 {
 #loyalty .text-design .section-buttons .player img {
   width: 2.5em;
   margin-right: 1em;
-  filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
 }
 #loyalty .text-design .section-buttons .player span {
   font-size: 1em;
@@ -239,7 +245,6 @@ h2 {
   left: 40%;
   bottom: -7em;
   z-index: -1;
-  filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
 }
 
 #prestation {
@@ -343,7 +348,6 @@ h2 {
 #trademark .text-design .section-buttons .player img {
   width: 2.5em;
   margin-right: 1em;
-  filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
 }
 #trademark .text-design .section-buttons .player span {
   font-size: 1em;
@@ -376,7 +380,6 @@ h2 {
   left: 40%;
   bottom: -7em;
   z-index: -1;
-  filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
 }
 
 #footer-container {
@@ -417,6 +420,7 @@ h2 {
 #footer-container .footer-info .top-footer .newsletter .subscribe input {
   padding-right: 4em;
   border-radius: 0.4em 0 0 0.4em;
+  background-color: #e2e8f0;
 }
 #footer-container .footer-info .top-footer .newsletter .subscribe .button {
   width: fit-content;
@@ -450,6 +454,7 @@ h2 {
 #footer-container .footer-info .legals .logo {
   display: flex;
   align-items: center;
+  width: 20%;
 }
 #footer-container .footer-info .legals .logo .logo-img {
   width: 2em;

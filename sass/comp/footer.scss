@@ -39,6 +39,7 @@
                     input {
                         padding-right: 4em;
                         border-radius: .4em 0 0 .4em;
+                        background-color: #e2e8f0;
                     }
     
                     .button {
@@ -70,6 +71,7 @@
             .logo {
     
                 @include logo;
+                width: 20%;
             }
     
             .rights {
