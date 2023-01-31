@@ -99,7 +99,7 @@ h2 {
   width: 100%;
 }
 #purchase .text-design .text-underline {
-  display: block;
+  display: inline-block;
   width: fit-content;
   justify-self: center;
   background-color: #6415ff;
@@ -182,7 +182,7 @@ h2 {
   width: 100%;
 }
 #loyalty .text-design .text-underline {
-  display: block;
+  display: inline-block;
   width: fit-content;
   justify-self: center;
   background-color: #6415ff;
@@ -249,7 +249,7 @@ h2 {
   text-align: center;
 }
 #prestation h2 .underline {
-  display: block;
+  display: inline-block;
   width: fit-content;
   justify-self: center;
   background-color: #6415ff;
@@ -261,9 +261,27 @@ h2 {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 4em;
 }
 #prestation .card-container .card {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0 5em;
+  text-align: center;
+}
+#prestation .card-container .card img {
+  background-color: #f7fafc;
+  border-radius: 50%;
+}
+#prestation .card-container .card a {
+  color: #6415ff;
+  font-weight: 700;
+}
+#prestation .card-container .card * {
+  margin-top: 1em;
 }
 
 #trademark {
@@ -289,7 +307,7 @@ h2 {
   width: 100%;
 }
 #trademark .text-design .text-underline {
-  display: block;
+  display: inline-block;
   width: fit-content;
   justify-self: center;
   background-color: #6415ff;
