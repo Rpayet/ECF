@@ -5,6 +5,18 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    letter-spacing: 0;
     font-family: $inter;
 }
 
+a {
+    font-size: 1em;
+    color: #707f95;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 900;
+    color: $text1;
+}
