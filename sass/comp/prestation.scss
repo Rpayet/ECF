@@ -1,0 +1,22 @@
+#prestation {
+    
+    width: 100%;
+
+    h2 {
+        text-align: center;
+        
+        .underline {
+            @include underline;
+        }
+    }
+
+    .card-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .card {
+            margin: 0 5em;
+        }
+    }
+}

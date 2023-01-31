@@ -1,0 +1,36 @@
+#trademark {
+
+    @include section-builder;
+
+
+    .text-design {
+
+        .productivity {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+
+            p {
+                margin-top: .25em;
+            }
+
+        }
+
+        p {
+            margin-top: 1em;
+        }
+    }
+
+    .img-design {
+
+        .decoration {
+            position: absolute;
+            width: 20%;
+            left: 40%;
+            bottom: -7em;
+            z-index: -1;
+            filter: invert(48%) sepia(30%) saturate(271%) hue-rotate(176deg) brightness(95%) contrast(92%);
+        }
+    }
+}
