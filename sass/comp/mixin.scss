@@ -1,3 +1,18 @@
+@mixin logo 
+{
+    display: flex;
+    align-items: center;
+
+        .logo-img {
+            width: 2em;
+        }
+
+        p {
+            margin-left: .5em;
+            font-weight: 900;
+        }
+}
+
 @mixin button
 {
     width: fit-content;
@@ -25,7 +40,8 @@
     color: white;
 }
 
-@mixin section-builder {
+@mixin section-builder 
+{
     
     position: relative;
     display: flex;
