@@ -1,3 +1,10 @@
-@import './comp/variables.scss';
-@import './comp/reset.scss';
-@import './comp/header.scss'
+@import 'comp/variables.scss';
+@import 'comp/mixin.scss';
+@import 'comp/reset.scss';
+@import 'comp/main.scss';
+@import 'comp/header.scss';
+@import 'comp/purchase.scss';
+@import 'comp/loyalty.scss';
+@import 'comp/prestation.scss';
+@import 'comp/trademark.scss';
+@import 'comp/footer.scss';

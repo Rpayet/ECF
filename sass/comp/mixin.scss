@@ -1,0 +1,12 @@
+@mixin button
+{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4em;
+    padding: .8em 1.8em;
+    background-color: $violet;
+    color: white;
+    font-weight: 700;
+}

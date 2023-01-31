@@ -1,3 +1,60 @@
-.burgerDisplay {
-    display: none;
+
+
+#header-container {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+    font-weight: 700;
+    color: $text1;
+
+
+    #logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo-img {
+            width: 2em;
+        }
+
+        p {
+            margin-left: .5em;
+            font-weight: 900;
+        }
+        
+    }
+
+    #navbar{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 50%;
+
+
+        }
+
+        .login {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+
+            
+
+            .button {
+                @include button;
+            }
+        }
+
+        .burgerDisplay {
+            display: none;
+        }
+    }
 }

@@ -8,7 +8,61 @@
   font-family: "Inter", sans-serif;
 }
 
-.burgerDisplay {
+#main-container {
+  position: relative;
+  width: 80vw;
+  margin: auto;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;
+  font-weight: 700;
+  color: #243e63;
+}
+#header-container #logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header-container #logo .logo-img {
+  width: 2em;
+}
+#header-container #logo p {
+  margin-left: 0.5em;
+  font-weight: 900;
+}
+#header-container #navbar {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+#header-container #navbar .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+#header-container #navbar .login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+#header-container #navbar .login .button {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4em;
+  padding: 0.8em 1.8em;
+  background-color: #6415ff;
+  color: white;
+  font-weight: 700;
+}
+#header-container #navbar .burgerDisplay {
   display: none;
 }
 
