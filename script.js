@@ -43,6 +43,17 @@ chiefBtn.addEventListener('click', () => {
 
 // Année de service dynamique onClick
 
-let yearBtn = document.querySelector('#idelity-year');
+let yearFill = document.querySelector('#fidelity-year');
+let yearBtn = document.querySelector('#year-btn');
+let year = 5;
+yearFill.innerHTML= `depuis ${year} ans.`;
+
+yearBtn.addEventListener('click', () => {
+    year = year + 1;
+});
+
+
+
+
 
 

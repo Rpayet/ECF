@@ -83,7 +83,8 @@ h2 {
   background-color: #6415ff;
   font-weight: 700;
 }
-#header-container .header-content #navbar .bar-list .login .button a {
+#header-container .header-content #navbar .bar-list .login .button p {
+  margin: 0;
   color: white;
 }
 #header-container .header-content #navbar .bar-list .crossDisplay {
@@ -141,7 +142,8 @@ h2 {
   background-color: #6415ff;
   font-weight: 700;
 }
-#purchase .text-design .section-buttons .button a {
+#purchase .text-design .section-buttons .button p {
+  margin: 0;
   color: white;
 }
 #purchase .text-design .section-buttons .player {
@@ -248,7 +250,8 @@ h2 {
   background-color: #6415ff;
   font-weight: 700;
 }
-#loyalty .text-design .section-buttons .button a {
+#loyalty .text-design .section-buttons .button p {
+  margin: 0;
   color: white;
 }
 #loyalty .text-design .section-buttons .player {
@@ -383,7 +386,8 @@ h2 {
   background-color: #6415ff;
   font-weight: 700;
 }
-#trademark .text-design .section-buttons .button a {
+#trademark .text-design .section-buttons .button p {
+  margin: 0;
   color: white;
 }
 #trademark .text-design .section-buttons .player {
@@ -486,7 +490,8 @@ h2 {
   font-weight: 700;
   border-radius: 0 0.4em 0.4em 0;
 }
-#footer-container .footer-info .top-footer .newsletter .subscribe .button a {
+#footer-container .footer-info .top-footer .newsletter .subscribe .button p {
+  margin: 0;
   color: white;
 }
 #footer-container .footer-info .top-footer .newsletter .subscribe .button a {
