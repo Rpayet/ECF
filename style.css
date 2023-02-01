@@ -181,6 +181,7 @@ h2 {
   left: -23em;
   top: 18em;
   opacity: 0.1;
+  z-index: -1;
 }
 
 #loyalty {
@@ -315,6 +316,7 @@ h2 {
   right: -21em;
   top: 14em;
   opacity: 0.2;
+  z-index: -1;
 }
 
 #trademark {
@@ -648,6 +650,11 @@ h2 {
     right: -1em;
     bottom: -1em;
   }
+  #purchase .deco-blob {
+    width: 60%;
+    top: 20em;
+    left: -10em;
+  }
   #loyalty {
     flex-direction: column;
     justify-content: center;
@@ -718,6 +725,11 @@ h2 {
   }
   #prestation .card-container .card p, #prestation .card-container .card a {
     font-size: 0.75em;
+  }
+  #prestation .deco-blob {
+    width: 60%;
+    right: -7em;
+    top: 35em;
   }
   #trademark {
     flex-direction: column;
