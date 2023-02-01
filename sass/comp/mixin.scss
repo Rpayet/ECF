@@ -24,6 +24,7 @@
     border: 2px solid $violet;
     background-color: $violet;
     font-weight: 700;
+    cursor: pointer;
 
     p {
         margin: 0;
@@ -139,7 +140,7 @@
 
         p {
             font-size: .75em;
-            width: 80%;
+            width: 100%;
             margin: .5em;
         }
 

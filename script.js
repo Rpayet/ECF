@@ -53,7 +53,17 @@ yearBtn.addEventListener('click', () => {
     yearFill.innerHTML= `depuis ${year} ans.`;
 });
 
-// 
+// Chiffre aléatoire de productivité 
+
+let commandValue = document.querySelector('.command-value');
+let customerValue = document.querySelector('.customer-value');
+let chiefValue = document.querySelector('.chief-value');
+
+let number = () => {
+    Math.random()
+}
+
+
 
 
 
