@@ -1,5 +1,18 @@
 #purchase {
 
+    .purchase-valid {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        p {
+            font-size: 3em;
+            color: #38b2ac;
+        }
+    }
+
     @include section-builder;
 
     .img-design {

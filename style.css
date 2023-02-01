@@ -101,6 +101,17 @@ h2 {
   height: 29em;
   margin: 10em 0 15em;
 }
+#purchase .purchase-valid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#purchase .purchase-valid p {
+  font-size: 3em;
+  color: #38b2ac;
+}
 #purchase .text-design {
   display: flex;
   flex-direction: column;
