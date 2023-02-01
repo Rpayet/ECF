@@ -36,8 +36,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   width: 80vw;
-  margin: auto;
-  margin-top: 1em;
+  margin: 1em auto 0;
 }
 #header-container .header-content #logo {
   display: flex;
@@ -526,6 +525,29 @@ h2 {
 }
 
 @media (max-width: 768px) {
+  #header-container .header-content {
+    width: 100%;
+    left: 0;
+    padding: 0 1em;
+  }
+  #header-container .header-content #navbar {
+    display: flex;
+    align-items: center;
+  }
+  #header-container .header-content #navbar .navigation {
+    width: 100%;
+    position: absolute;
+    top: -33vh;
+    left: 0;
+    flex-direction: column;
+    background-color: white;
+  }
+  #header-container .header-content #navbar .burgerDisplay {
+    display: block;
+  }
+  #header-container .header-content #navbar i {
+    margin-left: 1.5em;
+  }
   #main-container {
     width: 95vw;
   }

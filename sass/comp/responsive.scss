@@ -1,5 +1,35 @@
 @media (max-width: 768px) {
 
+    #header-container {
+
+        .header-content {
+            width: 100%;
+            left: 0;
+            padding: 0 1em;
+            #navbar {
+                display: flex;
+                align-items: center;
+                
+                .navigation {
+                    width: 100%;
+                    position: absolute;
+                    top: -33vh;
+                    left: 0;
+                    flex-direction: column;
+                    background-color: white;
+                }
+
+                .burgerDisplay {
+                    display: block;
+                }
+    
+                i {
+                    margin-left: 1.5em;
+                }
+            }
+        }
+    }
+
     #main-container {
         width: 95vw;
     }
@@ -28,7 +58,7 @@
 
             margin-top: 2em;
         }
-        
+
         .img-design {
 
             width: 80%;
