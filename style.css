@@ -679,6 +679,15 @@ h2 {
   #purchase .purchase-valid p {
     font-size: 0.75em;
   }
+  #purchase .integration {
+    width: 100%;
+    height: 405px;
+    padding: 1em;
+    margin: 1em auto 2em;
+  }
+  #purchase .integration iframe {
+    height: 100%;
+  }
   #loyalty {
     flex-direction: column;
     justify-content: center;
