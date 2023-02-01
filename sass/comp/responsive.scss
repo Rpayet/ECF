@@ -24,7 +24,11 @@
     #loyalty {
 
         @include section-builder-responsive;
+        .text-design {
 
+            margin-top: 2em;
+        }
+        
         .img-design {
 
             width: 80%;

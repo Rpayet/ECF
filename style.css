@@ -615,6 +615,9 @@ h2 {
     width: 100%;
     margin-top: 2em;
   }
+  #loyalty .text-design {
+    margin-top: 2em;
+  }
   #loyalty .img-design {
     width: 80%;
     margin: auto;
