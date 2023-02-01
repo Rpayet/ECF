@@ -1,0 +1,30 @@
+
+    .title:hover{
+        color: $violet;
+        cursor: pointer;
+    }
+
+    .link-purple:hover {
+        border-bottom: 2px solid $violet;
+        color: $violet;
+        padding-bottom: .2em;
+    }
+
+    .link-neutral:hover {
+        border-bottom: 2px solid $text3;
+        padding-bottom: .2em;
+    }
+
+    .button:hover {
+        border: 2px solid $btnHov !important;
+        cursor: pointer; 
+    }
+
+    .player:hover {
+        filter: invert(18%) sepia(90%) saturate(7160%) hue-rotate(262deg) brightness(96%) contrast(112%) !important;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }

@@ -67,16 +67,19 @@ h2 {
   align-items: center;
   margin-left: 5em;
 }
+#header-container .header-content #navbar .login > li {
+  margin-right: 3em;
+}
 #header-container .header-content #navbar .login .button {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   border-radius: 0.4em;
   padding: 0.8em 2.5em;
+  border: 2px solid #6415ff;
   background-color: #6415ff;
   font-weight: 700;
-  margin-left: 3em;
 }
 #header-container .header-content #navbar .login .button a {
   color: white;
@@ -123,12 +126,13 @@ h2 {
   margin-top: 3em;
 }
 #purchase .text-design .section-buttons .button {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   border-radius: 0.4em;
   padding: 0.8em 2.5em;
+  border: 2px solid #6415ff;
   background-color: #6415ff;
   font-weight: 700;
 }
@@ -204,12 +208,13 @@ h2 {
   margin-top: 3em;
 }
 #loyalty .text-design .section-buttons .button {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   border-radius: 0.4em;
   padding: 0.8em 2.5em;
+  border: 2px solid #6415ff;
   background-color: #6415ff;
   font-weight: 700;
 }
@@ -276,6 +281,7 @@ h2 {
   align-items: center;
   margin: 0 5em;
   text-align: center;
+  transition: 0.5s;
 }
 #prestation .card-container .card img {
   background-color: #f7fafc;
@@ -327,12 +333,13 @@ h2 {
   margin-top: 3em;
 }
 #trademark .text-design .section-buttons .button {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   border-radius: 0.4em;
   padding: 0.8em 2.5em;
+  border: 2px solid #6415ff;
   background-color: #6415ff;
   font-weight: 700;
 }
@@ -419,16 +426,22 @@ h2 {
 }
 #footer-container .footer-info .top-footer .newsletter .subscribe input {
   padding-right: 4em;
+  margin: 0;
   border-radius: 0.4em 0 0 0.4em;
   background-color: #e2e8f0;
+  margin-top: 1.2em;
+}
+#footer-container .footer-info .top-footer .newsletter .subscribe input:focus {
+  border: 2px solid #6415ff;
 }
 #footer-container .footer-info .top-footer .newsletter .subscribe .button {
-  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   border-radius: 0.4em;
   padding: 0.8em 2.5em;
+  border: 2px solid #6415ff;
   background-color: #6415ff;
   font-weight: 700;
   border-radius: 0 0.4em 0.4em 0;
@@ -473,8 +486,44 @@ h2 {
   justify-content: flex-end;
 }
 #footer-container .footer-info .legals .socials img {
-  width: 2em;
+  width: 2.5em;
   margin-left: 1em;
+  background-color: #1a212b;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+#footer-container .footer-info .legals .socials img:hover {
+  background-color: #4a5568;
+}
+
+.title:hover {
+  color: #6415ff;
+  cursor: pointer;
+}
+
+.link-purple:hover {
+  border-bottom: 2px solid #6415ff;
+  color: #6415ff;
+  padding-bottom: 0.2em;
+}
+
+.link-neutral:hover {
+  border-bottom: 2px solid #707f95;
+  padding-bottom: 0.2em;
+}
+
+.button:hover {
+  border: 2px solid #a0ccf0 !important;
+  cursor: pointer;
+}
+
+.player:hover {
+  filter: invert(18%) sepia(90%) saturate(7160%) hue-rotate(262deg) brightness(96%) contrast(112%) !important;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
