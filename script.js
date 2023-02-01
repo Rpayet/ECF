@@ -49,8 +49,11 @@ let year = 5;
 yearFill.innerHTML= `depuis ${year} ans.`;
 
 yearBtn.addEventListener('click', () => {
-    year = year + 1;
+    year += 1;
+    yearFill.innerHTML= `depuis ${year} ans.`;
 });
+
+// 
 
 
 
