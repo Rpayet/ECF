@@ -100,6 +100,90 @@
     }
 
     #footer-container {
-        
+        margin-top: 7.5em;
+
+        .footer-info {
+            width: 90%;
+            padding-top: 2.5em;
+
+            .top-footer{
+                flex-direction: column;
+
+                h4 {
+                    font-size: .75em;
+                }
+
+                .about {
+                    width: 100%;
+
+                    .footer-cardList {
+
+                        li {
+                            margin-top: .15em;
+
+                            a {
+                                font-size: .5em;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+
+                .newsletter{
+                    width: 90%;
+                    text-align: center;
+                    margin: 2em auto 0;
+
+                    p {
+                        font-size: .75em;
+                    }
+
+                    .subscribe {
+                        width: 80%;
+                        margin: auto;
+                        
+                        input {
+                            width: 70%;
+                            padding-right: 0;
+                            margin-top: .9em;
+
+                        }
+
+                        .button {
+                            font-size: .75em;
+                        }
+                    }
+                }
+            }
+
+            .legals {
+                flex-direction: column;
+                width: 90%;
+                padding: 1em 0;
+
+                * {
+                    margin-top : .5em; 
+                }
+
+                .logo {
+                    width: 100%;
+                    justify-content: center;
+                }
+
+                .rights {
+                    width: 100%;
+                    font-size: .75em;
+                }
+
+                .socials {
+                    width: 100%;
+                    justify-content: center;
+
+                    img {
+                        width: 2em;
+                    }
+                }
+            }
+        }
     }
 }

@@ -426,10 +426,9 @@ h2 {
 }
 #footer-container .footer-info .top-footer .newsletter .subscribe input {
   padding-right: 4em;
-  margin: 0;
+  margin: 1.2em 0 0;
   border-radius: 0.4em 0 0 0.4em;
   background-color: #e2e8f0;
-  margin-top: 1.2em;
 }
 #footer-container .footer-info .top-footer .newsletter .subscribe input:focus {
   border: 2px solid #6415ff;
@@ -704,6 +703,72 @@ h2 {
     bottom: -1em;
     z-index: -1;
     opacity: 0.5;
+  }
+  #footer-container {
+    margin-top: 7.5em;
+  }
+  #footer-container .footer-info {
+    width: 90%;
+    padding-top: 2.5em;
+  }
+  #footer-container .footer-info .top-footer {
+    flex-direction: column;
+  }
+  #footer-container .footer-info .top-footer h4 {
+    font-size: 0.75em;
+  }
+  #footer-container .footer-info .top-footer .about {
+    width: 100%;
+  }
+  #footer-container .footer-info .top-footer .about .footer-cardList li {
+    margin-top: 0.15em;
+  }
+  #footer-container .footer-info .top-footer .about .footer-cardList li a {
+    font-size: 0.5em;
+    font-weight: 700;
+  }
+  #footer-container .footer-info .top-footer .newsletter {
+    width: 90%;
+    text-align: center;
+    margin: 2em auto 0;
+  }
+  #footer-container .footer-info .top-footer .newsletter p {
+    font-size: 0.75em;
+  }
+  #footer-container .footer-info .top-footer .newsletter .subscribe {
+    width: 80%;
+    margin: auto;
+  }
+  #footer-container .footer-info .top-footer .newsletter .subscribe input {
+    width: 70%;
+    padding-right: 0;
+    margin-top: 0.9em;
+  }
+  #footer-container .footer-info .top-footer .newsletter .subscribe .button {
+    font-size: 0.75em;
+  }
+  #footer-container .footer-info .legals {
+    flex-direction: column;
+    width: 90%;
+    padding: 1em 0;
+  }
+  #footer-container .footer-info .legals * {
+    margin-top: 0.5em;
+  }
+  #footer-container .footer-info .legals .logo {
+    width: 100%;
+    justify-content: center;
+  }
+  #footer-container .footer-info .legals .rights {
+    width: 100%;
+    font-size: 0.75em;
+  }
+  #footer-container .footer-info .legals .socials {
+    width: 100%;
+    justify-content: center;
+  }
+  #footer-container .footer-info .legals .socials img {
+    width: 2em;
   }
 }
 
