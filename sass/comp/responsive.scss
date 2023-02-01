@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+
+    #main-container {
+        width: 95vw;
+    }
+
+    #purchase {
+
+        @include section-builder-responsive;
+
+        .img-design {
+
+            .decoration {
+                position: absolute;
+                width: 20%;
+                right: -1em;
+                bottom: -1em;
+                z-index: -1;
+                opacity: .5;
+                }
+        }
+    }
+
+    #loyalty {
+
+        @include section-builder-responsive;
+
+        .img-design {
+
+            width: 80%;
+            margin: auto;
+
+
+            .decoration {
+                position: absolute;
+                width: 20%;
+                right: -1em;
+                bottom: -1em;
+                z-index: -1;
+                opacity: .5;
+                }
+        }
+
+    }
+
+    #prestation {
+        margin: 7.5em 0;
+        h2 {
+            font-size: 1.75em;
+        }
+        .card-container {
+            flex-direction: column;
+            align-items: center; 
+
+            .card {
+                width: 50%;
+
+                img {
+                    width: 40%;
+                }
+
+                h3 {
+                    font-size: 1em;
+                }
+                
+                p, a{
+                    font-size: .75em;
+                }
+
+            
+            }
+        }
+    }
+
+    #trademark {
+
+        @include section-builder-responsive;
+        flex-direction: column-reverse;
+
+        .text-design {
+
+            margin-top: 2em;
+        }
+        .img-design {
+
+            width: 90%;
+            margin: auto;
+
+
+            .decoration {
+                position: absolute;
+                width: 20%;
+                right: -1em;
+                bottom: -1em;
+                z-index: -1;
+                opacity: .5;
+                }
+        }
+
+    }
+
+    #footer-container {
+        
+    }
+}

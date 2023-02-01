@@ -116,3 +116,60 @@
     }
 
 }
+
+
+@mixin section-builder-responsive {
+
+    flex-direction: column;
+    justify-content: center;
+    margin: 7.5em auto -3em;
+    width: 90%;
+
+    .text-design {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+
+
+        h2 {
+            width: 70%;
+            font-size: 1.25em;
+        }
+
+        p {
+            font-size: .75em;
+            width: 80%;
+            margin: .5em;
+        }
+
+        .section-buttons {
+            width: 100%;
+            justify-content: center;
+            margin-top: 1em;
+
+            .button {
+                font-size: .6em;
+                padding: .8em 1.5em;
+            }
+
+            .player {
+
+                img {
+                    width: 1.5em;
+                }
+
+                span {
+                    font-size: .6em;
+                }
+            }
+        }
+
+    }
+
+
+    .img-design {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+}

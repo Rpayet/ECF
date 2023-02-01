@@ -526,4 +526,185 @@ h2 {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  #main-container {
+    width: 95vw;
+  }
+  #purchase {
+    flex-direction: column;
+    justify-content: center;
+    margin: 7.5em auto -3em;
+    width: 90%;
+  }
+  #purchase .text-design {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  #purchase .text-design h2 {
+    width: 70%;
+    font-size: 1.25em;
+  }
+  #purchase .text-design p {
+    font-size: 0.75em;
+    width: 80%;
+    margin: 0.5em;
+  }
+  #purchase .text-design .section-buttons {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  #purchase .text-design .section-buttons .button {
+    font-size: 0.6em;
+    padding: 0.8em 1.5em;
+  }
+  #purchase .text-design .section-buttons .player img {
+    width: 1.5em;
+  }
+  #purchase .text-design .section-buttons .player span {
+    font-size: 0.6em;
+  }
+  #purchase .img-design {
+    width: 100%;
+    margin-top: 2em;
+  }
+  #purchase .img-design .decoration {
+    position: absolute;
+    width: 20%;
+    right: -1em;
+    bottom: -1em;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  #loyalty {
+    flex-direction: column;
+    justify-content: center;
+    margin: 7.5em auto -3em;
+    width: 90%;
+  }
+  #loyalty .text-design {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  #loyalty .text-design h2 {
+    width: 70%;
+    font-size: 1.25em;
+  }
+  #loyalty .text-design p {
+    font-size: 0.75em;
+    width: 80%;
+    margin: 0.5em;
+  }
+  #loyalty .text-design .section-buttons {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  #loyalty .text-design .section-buttons .button {
+    font-size: 0.6em;
+    padding: 0.8em 1.5em;
+  }
+  #loyalty .text-design .section-buttons .player img {
+    width: 1.5em;
+  }
+  #loyalty .text-design .section-buttons .player span {
+    font-size: 0.6em;
+  }
+  #loyalty .img-design {
+    width: 100%;
+    margin-top: 2em;
+  }
+  #loyalty .img-design {
+    width: 80%;
+    margin: auto;
+  }
+  #loyalty .img-design .decoration {
+    position: absolute;
+    width: 20%;
+    right: -1em;
+    bottom: -1em;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  #prestation {
+    margin: 7.5em 0;
+  }
+  #prestation h2 {
+    font-size: 1.75em;
+  }
+  #prestation .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #prestation .card-container .card {
+    width: 50%;
+  }
+  #prestation .card-container .card img {
+    width: 40%;
+  }
+  #prestation .card-container .card h3 {
+    font-size: 1em;
+  }
+  #prestation .card-container .card p, #prestation .card-container .card a {
+    font-size: 0.75em;
+  }
+  #trademark {
+    flex-direction: column;
+    justify-content: center;
+    margin: 7.5em auto -3em;
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  #trademark .text-design {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  #trademark .text-design h2 {
+    width: 70%;
+    font-size: 1.25em;
+  }
+  #trademark .text-design p {
+    font-size: 0.75em;
+    width: 80%;
+    margin: 0.5em;
+  }
+  #trademark .text-design .section-buttons {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  #trademark .text-design .section-buttons .button {
+    font-size: 0.6em;
+    padding: 0.8em 1.5em;
+  }
+  #trademark .text-design .section-buttons .player img {
+    width: 1.5em;
+  }
+  #trademark .text-design .section-buttons .player span {
+    font-size: 0.6em;
+  }
+  #trademark .img-design {
+    width: 100%;
+    margin-top: 2em;
+  }
+  #trademark .text-design {
+    margin-top: 2em;
+  }
+  #trademark .img-design {
+    width: 90%;
+    margin: auto;
+  }
+  #trademark .img-design .decoration {
+    position: absolute;
+    width: 20%;
+    right: -1em;
+    bottom: -1em;
+    z-index: -1;
+    opacity: 0.5;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
