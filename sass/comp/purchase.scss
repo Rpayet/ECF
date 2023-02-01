@@ -1,5 +1,29 @@
 #purchase {
 
+    @include section-builder;
+
+    .img-design {
+
+        .deco-dot {
+            position: absolute;
+            width: 20%;
+            right: -3em;
+            bottom: -6em;
+            z-index: -1;
+            opacity: .5;
+            }
+
+        }
+        
+    .deco-blob {
+        position: absolute;
+        width: 20%;
+        left: -23em;
+        top: 18em;
+        opacity: .1;
+        z-index: -1;
+    }
+
     .purchase-valid {
         width: 100%;
         display: flex;
@@ -13,26 +37,9 @@
         }
     }
 
-    @include section-builder;
-
-    .img-design {
-
-        .deco-dot {
-            position: absolute;
-            width: 20%;
-            right: -3em;
-            bottom: -6em;
-            z-index: -1;
-            opacity: .5;
-            }
-    }
-
-    .deco-blob {
-        position: absolute;
-        width: 20%;
-        left: -23em;
-        top: 18em;
-        opacity: .1;
-        z-index: -1;
+    .integration {
+        display: flex;
+        align-items: center;
+        width: 50%;
     }
 }

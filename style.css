@@ -101,17 +101,6 @@ h2 {
   height: 29em;
   margin: 10em 0 15em;
 }
-#purchase .purchase-valid {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-#purchase .purchase-valid p {
-  font-size: 3em;
-  color: #38b2ac;
-}
 #purchase .text-design {
   display: flex;
   flex-direction: column;
@@ -193,6 +182,22 @@ h2 {
   top: 18em;
   opacity: 0.1;
   z-index: -1;
+}
+#purchase .purchase-valid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#purchase .purchase-valid p {
+  font-size: 3em;
+  color: #38b2ac;
+}
+#purchase .integration {
+  display: flex;
+  align-items: center;
+  width: 50%;
 }
 
 #loyalty {
@@ -670,6 +675,9 @@ h2 {
     width: 60%;
     top: 20em;
     left: -10em;
+  }
+  #purchase .purchase-valid p {
+    font-size: 0.75em;
   }
   #loyalty {
     flex-direction: column;

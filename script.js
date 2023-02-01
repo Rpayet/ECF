@@ -31,5 +31,14 @@ purchaseBtn.addEventListener('click', () => {
 
 })
 
+// Video Youtube Integration
 
+let videoInt = document.querySelector('#purchase-aside');
+let chiefBtn = document.querySelector('#chief-btn');
+
+chiefBtn.addEventListener('click', () => {
+    videoInt.classList.remove('img-design');
+    videoInt.innerHTML = '<iframe width="720" height="405" src="https://www.youtube.com/embed/I7Tps0M-l64" title="YouTube video player" frameborder="0" autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> ';
+
+});
 
