@@ -22,30 +22,37 @@
         #navbar{
             display: flex;
     
-            .navigation {
+            .bar-list {
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
-    
-                li {
-                    margin-left: 3em;
-                    
-                }
-    
-            }
-    
-            .login {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-left: 5em;
 
-                &>li {
-                    margin-right: 3em;
+                .navigation {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    li {
+                        margin-left: 3em;
+                        
+                    }
                 }
-            
-                .button {
-                    @include button;
+                
+                .login {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-left: 5em;
+    
+                    &>li {
+                        margin-right: 3em;
+                    }
+                
+                    .button {
+                        @include button;
+                    }
+                }
+
+                .crossDisplay {
+                    display: none;
                 }
             }
     

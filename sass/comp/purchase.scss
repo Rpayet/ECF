@@ -4,12 +4,21 @@
 
     .img-design {
 
-        .decoration {
+        .deco-dot {
             position: absolute;
             width: 20%;
             right: -3em;
             bottom: -6em;
             z-index: -1;
+            opacity: .5;
             }
+    }
+
+    .deco-blob {
+        position: absolute;
+        width: 20%;
+        left: -23em;
+        top: 18em;
+        opacity: .1;
     }
 }

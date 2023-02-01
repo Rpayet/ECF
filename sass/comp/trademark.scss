@@ -24,12 +24,14 @@
 
     .img-design {
 
-        .decoration {
+        .deco-dot {
             position: absolute;
             width: 20%;
             left: 40%;
             bottom: -7em;
             z-index: -1;
+            opacity: .5;
+
         }
     }
 }

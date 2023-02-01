@@ -52,24 +52,27 @@ h2 {
 #header-container .header-content #navbar {
   display: flex;
 }
-#header-container .header-content #navbar .navigation {
+#header-container .header-content #navbar .bar-list {
+  display: flex;
+}
+#header-container .header-content #navbar .bar-list .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#header-container .header-content #navbar .navigation li {
+#header-container .header-content #navbar .bar-list .navigation li {
   margin-left: 3em;
 }
-#header-container .header-content #navbar .login {
+#header-container .header-content #navbar .bar-list .login {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 5em;
 }
-#header-container .header-content #navbar .login > li {
+#header-container .header-content #navbar .bar-list .login > li {
   margin-right: 3em;
 }
-#header-container .header-content #navbar .login .button {
+#header-container .header-content #navbar .bar-list .login .button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,8 +83,11 @@ h2 {
   background-color: #6415ff;
   font-weight: 700;
 }
-#header-container .header-content #navbar .login .button a {
+#header-container .header-content #navbar .bar-list .login .button a {
   color: white;
+}
+#header-container .header-content #navbar .bar-list .crossDisplay {
+  display: none;
 }
 #header-container .header-content #navbar .burgerDisplay {
   display: none;
@@ -161,12 +167,20 @@ h2 {
   width: 100%;
   border-radius: 2em;
 }
-#purchase .img-design .decoration {
+#purchase .img-design .deco-dot {
   position: absolute;
   width: 20%;
   right: -3em;
   bottom: -6em;
   z-index: -1;
+  opacity: 0.5;
+}
+#purchase .deco-blob {
+  position: absolute;
+  width: 20%;
+  left: -23em;
+  top: 18em;
+  opacity: 0.1;
 }
 
 #loyalty {
@@ -243,15 +257,17 @@ h2 {
   width: 100%;
   border-radius: 2em;
 }
-#loyalty .img-design .decoration {
+#loyalty .img-design .deco-dot {
   position: absolute;
   width: 20%;
   left: 40%;
   bottom: -7em;
   z-index: -1;
+  opacity: 0.5;
 }
 
 #prestation {
+  position: relative;
   width: 100%;
 }
 #prestation h2 {
@@ -292,6 +308,13 @@ h2 {
 }
 #prestation .card-container .card * {
   margin-top: 1em;
+}
+#prestation .deco-blob {
+  position: absolute;
+  width: 20%;
+  right: -21em;
+  top: 14em;
+  opacity: 0.2;
 }
 
 #trademark {
@@ -380,12 +403,13 @@ h2 {
 #trademark .text-design p {
   margin-top: 1em;
 }
-#trademark .img-design .decoration {
+#trademark .img-design .deco-dot {
   position: absolute;
   width: 20%;
   left: 40%;
   bottom: -7em;
   z-index: -1;
+  opacity: 0.5;
 }
 
 #footer-container {
@@ -534,19 +558,49 @@ h2 {
     display: flex;
     align-items: center;
   }
-  #header-container .header-content #navbar .navigation {
+  #header-container .header-content #navbar .bar-list {
     width: 100%;
+    height: 40vh;
     position: absolute;
-    top: -33vh;
+    top: -45vh;
     left: 0;
+    padding-bottom: 1em;
     flex-direction: column;
+    justify-content: space-around;
     background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 1px black;
+    transition: 0.5s;
+    text-align: center;
+  }
+  #header-container .header-content #navbar .bar-list .crossDisplay {
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 1.5em;
+    margin: 1em;
+  }
+  #header-container .header-content #navbar .bar-list .navigation {
+    flex-direction: column;
+    margin: auto;
+  }
+  #header-container .header-content #navbar .bar-list .navigation li {
+    margin-top: 2em;
+    margin-left: 0;
+  }
+  #header-container .header-content #navbar .bar-list .login {
+    flex-direction: column;
+    margin: 0;
+  }
+  #header-container .header-content #navbar .bar-list .login li {
+    margin-top: 2em;
+    margin-right: 0;
   }
   #header-container .header-content #navbar .burgerDisplay {
     display: block;
-  }
-  #header-container .header-content #navbar i {
-    margin-left: 1.5em;
+    width: 1.5em;
+    margin: 1em;
   }
   #main-container {
     width: 95vw;
@@ -590,13 +644,9 @@ h2 {
     width: 100%;
     margin-top: 2em;
   }
-  #purchase .img-design .decoration {
-    position: absolute;
-    width: 20%;
+  #purchase .img-design .deco-dot {
     right: -1em;
     bottom: -1em;
-    z-index: -1;
-    opacity: 0.5;
   }
   #loyalty {
     flex-direction: column;
@@ -644,13 +694,8 @@ h2 {
     width: 80%;
     margin: auto;
   }
-  #loyalty .img-design .decoration {
-    position: absolute;
-    width: 20%;
-    right: -1em;
+  #loyalty .img-design .deco-dot {
     bottom: -1em;
-    z-index: -1;
-    opacity: 0.5;
   }
   #prestation {
     margin: 7.5em 0;
@@ -721,13 +766,8 @@ h2 {
     width: 90%;
     margin: auto;
   }
-  #trademark .img-design .decoration {
-    position: absolute;
-    width: 20%;
-    right: -1em;
+  #trademark .img-design .deco-dot {
     bottom: -1em;
-    z-index: -1;
-    opacity: 0.5;
   }
   #footer-container {
     margin-top: 7.5em;
