@@ -61,11 +61,13 @@ let chiefValue = document.querySelector('.chief-value');
 
 let x = 0
 
-let number = () => {
-  x = Math.floor(Math.random() * (99999 - 9 + 1) + 9);
+let randomNumber = () => {
+  Math.floor(Math.random() * (99999 - 9 + 1) + 9);
 }
 
-console.log(number);
+x = randomNumber();
+
+console.log(x);
 
 
 
