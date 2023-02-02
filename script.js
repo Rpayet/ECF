@@ -58,19 +58,22 @@ yearBtn.addEventListener('click', () => {
 let commandValue = document.querySelector('.command-value');
 let customerValue = document.querySelector('.customer-value');
 let chiefValue = document.querySelector('.chief-value');
+let randomizer = document.querySelector('#randomizer');
 
-let x = 0
+let x = 0;
 
 let randomNumber = () => {
   return Math.floor(Math.random() * (99999 - 9 + 1) + 9);
 }
 
-x = randomNumber();
+randomizer.addEventListener('click', () => {
+    commandValue.innerHTML = `${x = randomNumber()}+`;
+    customerValue.innerHTML = `${x = randomNumber()}+`;
+    chiefValue.innerHTML = `${x = randomNumber()}+`;
+});
 
-console.log(x);
 
-
-
+// 
 
 
 
