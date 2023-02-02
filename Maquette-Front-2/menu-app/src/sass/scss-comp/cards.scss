@@ -1,0 +1,63 @@
+.card-ctr {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: $greyBG;
+        border-radius: .2em;
+
+        .top {
+            position: relative;
+            height: 60%;
+            background-color: aqua;
+
+            .meal-img {
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .rate {
+                position: absolute;
+                bottom: 0;
+                padding: .35em;
+                margin: .5em;
+                width: 6em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $whiteBG;
+                border-radius: 2em;
+
+
+                img {
+                    width: 1em;
+                }
+
+                p {
+                    font-weight: 700;
+                    margin-left: .30em;
+
+                    span {
+                        margin-left: .15em;
+                        font-size: .8em;
+                        font-weight: 300;
+                        color: $details;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+
+            * {
+                margin: .5em 0;
+            }
+        }
+    }
+}

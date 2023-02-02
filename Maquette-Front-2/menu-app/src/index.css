@@ -65,4 +65,58 @@
   margin: auto;
 }
 
+.card-ctr {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-between;
+}
+.card-ctr .card {
+  display: flex;
+  flex-direction: column;
+  background-color: #edf2f7;
+  border-radius: 0.2em;
+}
+.card-ctr .card .top {
+  position: relative;
+  height: 60%;
+  background-color: aqua;
+}
+.card-ctr .card .top .meal-img {
+  width: 100%;
+  object-fit: contain;
+}
+.card-ctr .card .top .rate {
+  position: absolute;
+  bottom: 0;
+  padding: 0.35em;
+  margin: 0.5em;
+  width: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7fafc;
+  border-radius: 2em;
+}
+.card-ctr .card .top .rate img {
+  width: 1em;
+}
+.card-ctr .card .top .rate p {
+  font-weight: 700;
+  margin-left: 0.3em;
+}
+.card-ctr .card .top .rate p span {
+  margin-left: 0.15em;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #738197;
+}
+.card-ctr .card .bottom {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.card-ctr .card .bottom * {
+  margin: 0.5em 0;
+}
+
 /*# sourceMappingURL=index.css.map */
