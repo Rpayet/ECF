@@ -59,10 +59,13 @@ let commandValue = document.querySelector('.command-value');
 let customerValue = document.querySelector('.customer-value');
 let chiefValue = document.querySelector('.chief-value');
 
+let x = 0
+
 let number = () => {
-    Math.random()
+  x = Math.floor(Math.random() * (99999 - 9 + 1) + 9);
 }
 
+console.log(number);
 
 
 
