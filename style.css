@@ -10,6 +10,10 @@
   color: #243e63;
 }
 
+.container {
+  overflow-x: hidden;
+}
+
 h2 {
   font-size: 3em;
   font-weight: 900;
