@@ -1,0 +1,39 @@
+.app-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 0;
+    margin: 2em 0;
+
+    h1 {
+        font-size: 4em;
+
+        span{
+            @include underline;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: $greybBG;
+        padding: 1em 1em;
+        border-radius: .2em;
+
+        .button {
+            @include button;
+
+        }
+        
+        .select {
+            background-color: $violet;
+
+            p {
+                color: white;
+                
+            }
+        }
+    }
+}

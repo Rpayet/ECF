@@ -1,11 +1,68 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   outline: 0;
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
   letter-spacing: 0;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+.app-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 0;
+  margin: 2em 0;
+}
+.app-header h1 {
+  font-size: 4em;
+}
+.app-header h1 span {
+  display: inline-block;
+  width: fit-content;
+  justify-self: center;
+  background-color: #6415ff;
+  padding: 0.1em 0.3em;
+  transform: skew(-10deg);
+  color: white;
+}
+.app-header .navbar {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #edf2f7;
+  padding: 1em 1em;
+  border-radius: 0.2em;
+}
+.app-header .navbar .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
+  padding: 1em 1.5em;
+  margin: 0 0.25em;
+  background-color: #edf2f7;
+  font-weight: 700;
+  cursor: pointer;
+}
+.app-header .navbar .button p {
+  margin: 0;
+  color: #697990;
+}
+.app-header .navbar .select {
+  background-color: #6415ff;
+}
+.app-header .navbar .select p {
+  color: white;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
 }
 
 /*# sourceMappingURL=index.css.map */

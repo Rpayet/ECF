@@ -3,14 +3,14 @@ import star from './img/star.svg';
 
 function App() {
   return (
-    <div className="container">
+    <div className="main">
 
-      <header className="App-header">
+      <header className="app-header">
 
         <h1>Découvrez notre <span className="underline">menu.</span></h1>
 
-        <ul className='navBar'>
-          <li className="button"><p>Tout</p></li>
+        <ul className='navbar'>
+          <li className="button select"><p>Tout</p></li>
           <li className="button"><p>Viandes</p></li>
           <li className="button"><p>Légumes</p></li>
         </ul>
