@@ -83,12 +83,7 @@
   height: 100%;
   overflow: hidden;
 }
-.card-ctr .card .top .img-ctr {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-}
-.card-ctr .card .top .img-ctr .meal-img {
+.card-ctr .card .top .meal-img {
   border-radius: 0.5em;
   width: 400px;
   display: block;

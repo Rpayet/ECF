@@ -16,16 +16,10 @@
             height: 100%;
             overflow: hidden;
 
-            .img-ctr {
-                display: flex;
-                justify-items: center;
-                align-items: center;
-
-                .meal-img {
-                    border-radius: .5em;
-                    width: 400px;
-                    display: block;
-                }
+            .meal-img {
+                border-radius: .5em;
+                width: 400px;
+                display: block;
             }
 
             .rate {
