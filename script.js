@@ -62,7 +62,7 @@ let chiefValue = document.querySelector('.chief-value');
 let x = 0
 
 let randomNumber = () => {
-  Math.floor(Math.random() * (99999 - 9 + 1) + 9);
+  return Math.floor(Math.random() * (99999 - 9 + 1) + 9);
 }
 
 x = randomNumber();
