@@ -98,9 +98,7 @@ export default function Menu() {
 
     return (
 
-        // console.log(meals[0])
         <section className="card-ctr">
-
             {meals.map(meal => <Meals meal={meal}/>)}
         </section>
 
