@@ -73,7 +73,23 @@ randomizer.addEventListener('click', () => {
 });
 
 
-// 
+// Subscribe 'Formulaire'
+
+let subBtn = document.querySelector('#sub-btn');
+let emailInput = document.querySelector('#mail-holder');
+let subAlert = document.querySelector('.subscribe');
+
+subBtn.addEventListener('click', () => {
+  let email = emailInput.value;
+  if (email) {
+    let paragraph = document.createElement('p');
+    subAlert.innerHTML = '';
+    subAlert.appendChild(paragraph);
+    paragraph.innerText = `Merci : ${email}`;
+  } else {
+    alert("Veuillez entrer une adresse email valide");
+  }
+});
 
 
 

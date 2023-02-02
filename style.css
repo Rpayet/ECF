@@ -506,6 +506,9 @@ h2 {
 #footer-container .footer-info .top-footer .newsletter .subscribe .button a {
   margin-top: 0;
 }
+#footer-container .footer-info .top-footer .newsletter .subscribe p {
+  color: #38b2ac;
+}
 #footer-container .footer-info .top-footer .newsletter * {
   margin-top: 1em;
 }
