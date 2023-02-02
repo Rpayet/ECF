@@ -10,7 +10,7 @@ export default function Meals({ meal }) {
             <img className="meal-img" src={meal.imageSrc} alt="meal" />
             <div className="rate">
               <img src={star} alt="star"/>
-              <p>{meal.rating} <span>{meal.reviews}</span></p>
+              <p>{meal.rating} <span>({meal.reviews})</span></p>
             </div>
           </div>
 

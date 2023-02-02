@@ -69,21 +69,24 @@
   display: grid;
   grid-template-columns: 20% 20% 20% 20%;
   justify-content: space-between;
+  gap: 4em;
 }
 .card-ctr .card {
   display: flex;
   flex-direction: column;
   background-color: #edf2f7;
-  border-radius: 0.2em;
+  border-radius: 0.5em;
+  height: 30em;
 }
 .card-ctr .card .top {
   position: relative;
-  height: 60%;
-  background-color: aqua;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
 }
 .card-ctr .card .top .meal-img {
-  width: 100%;
-  object-fit: contain;
+  border-radius: 0.5em 0.5em 0 0;
+  height: 100%;
 }
 .card-ctr .card .top .rate {
   position: absolute;
@@ -113,7 +116,8 @@
 .card-ctr .card .bottom {
   display: flex;
   flex-direction: column;
-  padding: 1em;
+  padding: 0 1em;
+  height: 50%;
 }
 .card-ctr .card .bottom * {
   margin: 0.5em 0;
